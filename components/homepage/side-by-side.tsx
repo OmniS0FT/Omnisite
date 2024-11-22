@@ -5,19 +5,19 @@ import { TITLE_TAILWIND_CLASS } from '@/utils/constants'
 
 const features = [
   {
-    name: 'Build faster.',
+    name: 'Offline chat',
     description:
-      'Get up and running in no time with pre-configured settings and best practices. Say goodbye to setup and focus on what truly matters - building your application.',
+      'Once the initial download of a model is processed, you will be able to use omnibot without an internet connection.',
     icon: Computer,
   },
   {
-    name: 'Focus on business logic.',
-    description: 'Concentrate on solving business problems instead of dealing with the repetitive setup.',
+    name: 'In-browser privacy',
+    description: ' All AI models run locally (client side) on your hardware, ensuring that your data is processed only on your pc.',
     icon: FaBusinessTime,
   },
   {
-    name: 'Ready for scale.',
-    description: 'Prepare for growth from day one. With built-in optimizations and scalable architecture, your application will be ready to handle increased traffic and complexity.',
+    name: 'Custom memory support',
+    description: 'Add custom instructions/memory to allow the AI to provide better and more personalized responses.',
     icon: Network,
   },
 ]
@@ -30,10 +30,10 @@ export default function SideBySide() {
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
               <p className={`${TITLE_TAILWIND_CLASS} mt-2 font-semibold tracking-tight dark:text-white text-gray-900`}>
-                Nextjs Starter Kit: A faster way to production
+                OmniBot: Native Artificial Intelligence
               </p>
               <p className="mt-6 leading-8 text-gray-600 dark:text-gray-400">
-                Accelerate your development with this powerful Nextjs Starter Kit
+              Bringing you in-browser and offline AI experience with selected LLMs
               </p>
               <dl className="mt-10 max-w-xl space-y-8 leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (

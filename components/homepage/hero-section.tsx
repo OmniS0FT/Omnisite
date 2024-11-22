@@ -9,10 +9,10 @@ export default function HeroSection() {
     return (
         <section className='flex flex-col items-center justify-center leading-6 mt-[3rem]' aria-label="Nextjs Starter Kit Hero">
             <h1 className={`${TITLE_TAILWIND_CLASS} scroll-m-20 font-semibold tracking-tight text-center max-w-[1120px] bg-gradient-to-b dark:text-white`}>
-                Nextjs Starter Kit: Build & Ship Fast
+                OmniBot: Your Native AI Assistant
             </h1>
             <p className="mx-auto max-w-[700px] text-gray-500 text-center mt-2 dark:text-gray-400">
-                The Ultimate Nextjs 14 Starter Kit for quickly building your SaaS, giving you time to focus on what really matters
+            This is a private AI that uses WebGPU to run LLMs natively & privately in your browser, bringing you in-browser AI experience.
             </p>
             <div className="flex justify-center items-center gap-3">
                 <Link href="/dashboard" className="mt-5">
@@ -28,12 +28,12 @@ export default function HeroSection() {
                     aria-label="Join Discord (opens in a new tab)"
                 >
                     <Button variant="outline" className="flex gap-1">
-                        Join Discord
+                        Discussions
                         <ArrowRight className='w-4 h-4' aria-hidden="true" />
                     </Button>
                 </Link>
                 <Link
-                    href="https://github.com/michaelshimeles/nextjs14-starter-template"
+                    href="https://github.com/OmniB0T"
                     target='_blank'
                     className='animate-buttonheartbeat border p-2 rounded-full mt-5 hover:dark:bg-black hover:cursor-pointer'
                     aria-label="View NextJS 14 Starter Template on GitHub"
@@ -45,7 +45,7 @@ export default function HeroSection() {
                 <div className="relative flex max-w-6xl justify-center overflow-hidden mt-7">
                     <div className="relative rounded-xl">
                         <Image
-                            src="https://utfs.io/f/31dba2ff-6c3b-4927-99cd-b928eaa54d5f-5w20ij.png"
+                            src="https://res.cloudinary.com/diekemzs9/image/upload/v1732315249/omni_wb4uz9.png"
                             alt="Nextjs Starter Kit Dashboard Preview"
                             width={1100}
                             height={550}
@@ -53,7 +53,7 @@ export default function HeroSection() {
                             className="block rounded-[inherit] border object-contain shadow-lg dark:hidden"
                         />
                         <Image
-                            src="https://utfs.io/f/69a12ab1-4d57-4913-90f9-38c6aca6c373-1txg2.png"
+                            src="https://res.cloudinary.com/diekemzs9/image/upload/v1732315285/omni2_qciamy.png"
                             width={1100}
                             height={550}
                             alt="Nextjs Starter Kit Dark Mode Dashboard Preview"

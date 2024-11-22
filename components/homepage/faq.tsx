@@ -9,7 +9,7 @@ export function FAQ() {
     return (
         <Accordion type="single" collapsible className="w-full p-8">
             <AccordionItem value="item-1">
-                <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                <AccordionTrigger>Is it Free?</AccordionTrigger>
                 <AccordionContent>
                     Yes. It adheres to the WAI-ARIA design pattern.
                 </AccordionContent>

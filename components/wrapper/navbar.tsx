@@ -17,7 +17,7 @@ const components: { title: string; href: string; description: string }[] = [
     {
         title: "Marketing Page",
         href: "/marketing-page",
-        description: "Write some wavy here to get them to click.",
+        description: "Click here to learn more.",
     },
 ];
 
@@ -40,7 +40,7 @@ export default function NavBar() {
                     </SheetTrigger>
                     <SheetContent side="left">
                         <SheetHeader>
-                            <SheetTitle>Next Starter</SheetTitle>
+                            <SheetTitle>OmniBot</SheetTitle>
                         </SheetHeader>
                         <div className="flex flex-col space-y-3 mt-[1rem]">
                             <DialogClose asChild>

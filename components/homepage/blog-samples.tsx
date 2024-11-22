@@ -30,7 +30,7 @@ export default function BlogSample() {
         <div className='flex flex-col justify-start items-center gap-2 w-full'>
           <div className='flex gap-3 justify-start items-center w-full'>
             <h1 className={`${TITLE_TAILWIND_CLASS} mt-2 font-semibold tracking-tight dark:text-white text-gray-900`}>
-              Some Sample Blog Cards
+              Info Cards
             </h1>
           </div>
           <div className='flex gap-3 justify-start items-center w-full border-b pb-4'>
