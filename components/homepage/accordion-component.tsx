@@ -29,9 +29,9 @@ export function AccordionComponent() {
             
 
                 <AccordionItem value="item-3">
-                    <AccordionTrigger><span className="font-medium">How do I know if my device supports WebGL?</span></AccordionTrigger>
+                    <AccordionTrigger><span className="font-medium">Checking for compatibilty?</span></AccordionTrigger>
                     <AccordionContent>
-                        <p>You can check compatibility by clicking <a href="https://gist.github.com/TimvanScherpenzeel/f8efeeb1dbed38a5c5dc0c29768a0413"><b>here</b></a></p>
+                        <p>You can check for webGL compatibility by clicking <a href="https://gist.github.com/TimvanScherpenzeel/f8efeeb1dbed38a5c5dc0c29768a0413"><b>here</b></a></p>
                     </AccordionContent>
                 </AccordionItem>
             </Accordion>

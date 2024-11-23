@@ -66,7 +66,7 @@ const SpringAnimatedFeatures = () => {
         Omnibot: Built on the best
         </h2>
         <p className="mx-auto max-w-[500px] text-gray-600 dark:text-gray-400 text-center mt-2 ">
-        Technologies, large language models and frameworks
+        Technologies, LLMs and Frameworks
         </p>
       </div>
       <div className="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
