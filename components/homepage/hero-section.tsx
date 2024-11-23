@@ -15,8 +15,8 @@ export default function HeroSection() {
             This is a private AI that uses WebGPU to run LLMs natively & privately in your browser, bringing you in-browser AI experience.
             </p>
             <div className="flex justify-center items-center gap-3">
-                <Link href="/dashboard" className="mt-5">
-                    <Button className="animate-buttonheartbeat rounded-md bg-blue-600 hover:bg-blue-500 text-sm font-semibold text-white">
+                <Link href="/" className="mt-5">
+                    <Button className="animate-buttonheartbeat rounded-md bg-green-600 hover:bg-green-500 text-sm font-semibold text-white">
                         Get Started
                     </Button>
                 </Link>

@@ -19,6 +19,21 @@ export function AccordionComponent() {
                         <p>Yes, Omnibot is totally free to use</p>
                     </AccordionContent>
                 </AccordionItem>
+                
+                <AccordionItem value="item-2">
+                    <AccordionTrigger><span className="font-medium">Why isn’t the model loading?</span></AccordionTrigger>
+                    <AccordionContent>
+                        <p> Ensure that your browser supports WebGPU. For older devices, WebGL compatibility is required.</p>
+                    </AccordionContent>
+                </AccordionItem>
+            
+
+                <AccordionItem value="item-3">
+                    <AccordionTrigger><span className="font-medium">How do I know if my device supports WebGL?</span></AccordionTrigger>
+                    <AccordionContent>
+                        <p>You can check compatibility by clicking <a href="https://gist.github.com/TimvanScherpenzeel/f8efeeb1dbed38a5c5dc0c29768a0413"><b>here</b></a></p>
+                    </AccordionContent>
+                </AccordionItem>
             </Accordion>
         </div>
     )

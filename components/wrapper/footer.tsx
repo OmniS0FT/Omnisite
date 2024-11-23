@@ -20,8 +20,8 @@ export default function Footer() {
     return (
         <footer className="border-t dark:bg-black">
             <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-                <div className="lg:grid lg:grid-cols-2">
-                    <div
+                <div className="lg:grid lg:grid-cols-1">
+                    {/* <div
                         className="border-b   py-8 lg:order-last lg:border-b-0 lg:border-s lg:py-16 lg:ps-16"
                     >
                         <div className="mt-8 space-y-4 lg:mt-0">
@@ -43,7 +43,7 @@ export default function Footer() {
                                 </Button>
                             </form>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="py-8 lg:py-16 lg:pe-16">
 
@@ -55,10 +55,10 @@ export default function Footer() {
 
                                 <ul className="mt-6 space-y-4 text-sm">
                                     <li>
-                                        <Link href="https://twitter.com/ibrahh__ib" target="_blank" className="transition hover:opacity-75"> Twitter </Link>
+                                        <Link href="https://github.com/OmniB0T" target="_blank" className="transition hover:opacity-75"> Github </Link>
                                     </li>
                                     <li>
-                                        <Link href="https://www.youtube.com/" target="_blank" className="  transition hover:opacity-75"> YouTube </Link>
+                                        <Link href="https://www.linkedin.com/company/omnibot-ai/" target="_blank" className="  transition hover:opacity-75"> LinkedIn </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -71,7 +71,7 @@ export default function Footer() {
                                         <Link target="_blank" href="/" rel="noopener noreferrer" className="  transition hover:opacity-75"> Docs </Link>
                                     </li>
                                     <li>
-                                        <Link href="/" className="  transition hover:opacity-75"> Methodology </Link>
+                                        <Link href="https://github.com/orgs/OmniB0T/discussions/1" className="  transition hover:opacity-75"> Support </Link>
                                     </li>
                                 </ul>
                             </div>

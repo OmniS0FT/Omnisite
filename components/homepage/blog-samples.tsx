@@ -6,21 +6,21 @@ export default function BlogSample() {
   const articles = [
     {
       id: 1,
-      image: "https://seo-heist.s3.amazonaws.com/user_2cxTR5I0BjOLeNCnee3qUze0LUo/1af01aca-6ce1-4a3f-8e54-e945e3104889.png",
-      title: "The Importance of Storytelling in Modern Branding",
-      date: "2024-04-15 21:16:04.765648-05"
+      image: "https://res.cloudinary.com/diekemzs9/image/upload/c_fill,ar_16:9/v1732394436/boliviainteligente-uSooyF1X0s8-unsplash-min_1_caarjt.jpg",
+      title: "To run models efficiently, you need a GPU with enough memory. 7B models require 6GB, 3B models require 3GB.",
+      date: "2024-08-11 21:16:04.765648-05"
     },
     {
       id: 2,
-      image: "https://seo-heist.s3.amazonaws.com/user_2cxTR5I0BjOLeNCnee3qUze0LUo/96bf3bb0-9e15-4745-b966-91d719651429.png",
-      title: "How to Choose the Right Dog for Your Lifestyle",
+      image: "https://res.cloudinary.com/diekemzs9/image/upload/c_fill,ar_16:9/v1732395609/andrea-de-santis-tFabmar4vb0-unsplash_1_vydt20.jpg",
+      title: "If your mobile  phone supports WebGl, you'll be able to use Omnibot just as you would on a PC",
       date: "2024-04-16 08:29:32.188999-05"
     },
     {
       id: 3,
-      image: "https://seo-heist.s3.amazonaws.com/user_2cxTR5I0BjOLeNCnee3qUze0LUo/36292d36-cfae-4106-8d59-ace222f4bc82.png",
-      title: "Top Automation Testing Suites for Seamless Software Testing",
-      date: "2024-04-16 15:20:52.368844-05"
+      image: "https://res.cloudinary.com/diekemzs9/image/upload/v1732397045/boliviainteligente-dCvqMHRUIhY-unsplash_1_ulqxes.jpg",
+      title: "You can eamlessly generate and save your chat messages in either json or markdown format.",
+      date: "2024-06-14 15:20:52.368844-05"
     }
   ]
 
@@ -30,12 +30,12 @@ export default function BlogSample() {
         <div className='flex flex-col justify-start items-center gap-2 w-full'>
           <div className='flex gap-3 justify-start items-center w-full'>
             <h1 className={`${TITLE_TAILWIND_CLASS} mt-2 font-semibold tracking-tight dark:text-white text-gray-900`}>
-              Info Cards
+              Info Session
             </h1>
           </div>
           <div className='flex gap-3 justify-start items-center w-full border-b pb-4'>
             <p className="text-gray-600 dark:text-gray-400">
-              All these articles were generated using Sample Articles AI
+              Some important information about the omnibot usage
             </p>
           </div>
         </div>

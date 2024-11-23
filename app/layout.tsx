@@ -13,20 +13,20 @@ export const metadata: Metadata = {
     default: 'Omnibot site',
     template: `%s | Omnibot site`
   },
-  description: 'The Ultimate Nextjs 14 Starter Kit for quickly building your SaaS, giving you time to focus on what really matters',
+  description: 'A private AI that uses WebGPU to run LLMs natively & privately in your browser, bringing you in-browser AI experience',
   openGraph: {
-    description: 'The Ultimate Nextjs 14 Starter Kit for quickly building your SaaS, giving you time to focus on what really matters',
-    images: ['https://utfs.io/f/8a428f85-ae83-4ca7-9237-6f8b65411293-eun6ii.png'],
+    description: 'This is a private AI that uses WebGPU to run LLMs natively & privately in your browser, bringing you in-browser AI experience',
+    images: ['https://res.cloudinary.com/diekemzs9/image/upload/v1732315249/omni_wb4uz9.png'],
     url: 'https://starter.rasmic.xyz/'
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Nextjs Starter Kit',
-    description: 'The Ultimate Nextjs 14 Starter Kit for quickly building your SaaS, giving you time to focus on what really matters',
+    title: 'OmniBot AI',
+    description: 'This is a private AI that uses WebGPU to run LLMs natively & privately in your browser, bringing you in-browser AI experience',
     siteId: "",
-    creator: "@rasmic",
+    creator: "@iBz-04",
     creatorId: "",
-    images: ['https://utfs.io/f/8a428f85-ae83-4ca7-9237-6f8b65411293-eun6ii.png'],
+    images: ['https://res.cloudinary.com/diekemzs9/image/upload/v1732315249/omni_wb4uz9.png'],
   },
 }
 
@@ -41,12 +41,12 @@ export default function RootLayout({
         <head>
           <link
             rel="preload"
-            href="https://utfs.io/f/31dba2ff-6c3b-4927-99cd-b928eaa54d5f-5w20ij.png"
+            href="https://res.cloudinary.com/diekemzs9/image/upload/v1732315249/omni_wb4uz9.png"
             as="image"
           />
           <link
             rel="preload"
-            href="https://utfs.io/f/69a12ab1-4d57-4913-90f9-38c6aca6c373-1txg2.png"
+            href="https://res.cloudinary.com/diekemzs9/image/upload/v1732315249/omni_wb4uz9.png"
             as="image"
           />
         </head>

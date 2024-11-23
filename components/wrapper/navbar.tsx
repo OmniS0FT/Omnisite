@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import * as React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { TbMessageChatbot } from "react-icons/tb";
 import { Button } from "../ui/button";
 import { SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "../ui/sheet";
 import { UserProfile } from "../user-profile";
@@ -15,7 +16,7 @@ import { Dialog, DialogClose } from "@radix-ui/react-dialog";
 
 const components: { title: string; href: string; description: string }[] = [
     {
-        title: "Marketing Page",
+        title: "More",
         href: "/marketing-page",
         description: "Click here to learn more.",
     },
@@ -40,7 +41,9 @@ export default function NavBar() {
                     </SheetTrigger>
                     <SheetContent side="left">
                         <SheetHeader>
-                            <SheetTitle>OmniBot</SheetTitle>
+                            <SheetTitle>
+                            OmniBot
+                            </SheetTitle>
                         </SheetHeader>
                         <div className="flex flex-col space-y-3 mt-[1rem]">
                             <DialogClose asChild>
@@ -49,9 +52,9 @@ export default function NavBar() {
                                 </Link>
                             </DialogClose>
                             <DialogClose asChild>
-                                <Link href="/dashboard" legacyBehavior passHref className="cursor-pointer">
+                                <Link href="/marketing-page" legacyBehavior passHref className="cursor-pointer">
                                     <Button variant="outline">
-                                        Dashboard
+                                        About
                                     </Button>
                                 </Link>
                             </DialogClose>
@@ -63,7 +66,7 @@ export default function NavBar() {
             <NavigationMenu>
                 <NavigationMenuList className="max-[825px]:hidden flex gap-3 w-[100%] justify-between">
                     <Link href="/" className="pl-2 flex items-center" aria-label="Home">
-                        <BlocksIcon aria-hidden="true" />
+                        <TbMessageChatbot size={29}  color="green" aria-hidden="true" />
                         <span className="sr-only">Home</span>
                     </Link>
                 </NavigationMenuList>
@@ -87,9 +90,9 @@ export default function NavBar() {
                         </NavigationMenuContent>
                     </NavigationMenuItem>
                     <NavigationMenuItem className="max-[825px]:hidden">
-                        <Link href="/dashboard" legacyBehavior passHref>
+                        <Link href="/marketing-page" legacyBehavior passHref>
                             <Button variant="ghost">
-                                Dashboard
+                                About
                             </Button>
                         </Link>
                     </NavigationMenuItem>
