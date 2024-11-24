@@ -33,7 +33,7 @@ export default async function MarketingPage() {
           Main Features 🤖
         </h1>
         <p className="mx-auto max-w-[600px] text-gray-500 md:text-lg text-center mt-2 dark:text-gray-400">
-        Explore Omnibot's features built for privacy, efficiency, and powerful AI interaction.
+        Explore Omnibot features built for privacy, efficiency, and powerful AI interaction.
         </p>
       
         <div className='flex flex-col min-h-screen max-w-[900px] items-center mb-[2rem] mt-[4rem]'>
