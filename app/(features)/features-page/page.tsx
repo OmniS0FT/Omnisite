@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button'
 import { Metadata } from 'next'
 import Link from 'next/link'
 import PageWrapper from "@/components/wrapper/page-wrapper";
+import { Component as ToolTip } from "@/components/homepage/tooltip";
 
 
 export const metadata: Metadata = {
@@ -30,13 +31,18 @@ export default async function MarketingPage() {
     <PageWrapper>
       <div className='flex flex-col min-h-screen items-center mt-[2.5rem] p-3 w-full'>
         <h1 className="scroll-m-20 max-w-[600px] text-5xl font-bold tracking-tight text-center">
-          Main Features 🤖
+          Main Features
         </h1>
         <p className="mx-auto max-w-[600px] text-gray-500 md:text-lg text-center mt-2 dark:text-gray-400">
         Explore Omnibot features built for privacy, efficiency, and powerful AI interaction.
         </p>
+
+        <section className="mb-5 items-center">
+            <ToolTip />
+            </section>
       
         <div className='flex flex-col min-h-screen max-w-[900px] items-center mb-[2rem] mt-[4rem]'>
+
           <article className="w-full mx-auto pb-8">
 
             <section className="mb-8">
