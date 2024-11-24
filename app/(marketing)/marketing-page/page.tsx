@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   keywords: [''],
   title: 'Marketing page',
   openGraph: {
-    description: 'Put description of the page.',
+    description: 'Description and marketing of Omnibot',
     images: ['']
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Marketing page',
-    description: 'Put description of the page.',
+    description: 'Description and marketing of Omnibot',
     siteId: "",
-    creator: "@rasmickyy",
+    creator: "@iBz-04",
     creatorId: "",
     images: [''],
   },
@@ -30,7 +30,7 @@ export default async function MarketingPage() {
     <PageWrapper>
       <div className='flex flex-col min-h-screen items-center mt-[2.5rem] p-3 w-full'>
         <h1 className="scroll-m-20 max-w-[600px] text-5xl font-bold tracking-tight text-center">
-          Example Marketing Page with Video & CTA
+          Welcome to OmniBot
         </h1>
         <p className="mx-auto max-w-[600px] text-gray-500 md:text-lg text-center mt-2 dark:text-gray-400">
           Use this static page to have an explainer video with CTA and some copy. Great for marketing your product and getting sales.
