@@ -37,7 +37,7 @@ export default async function MarketingPage() {
         Get to know about the Omnibot initative and what it has to offer.
         </p>
         <div className='flex gap-2 mt-2'>
-          <Link href="/dashboard" className="mt-2">
+          <Link href="https://www.omnibot.chat/" className="mt-2">
             <Button size="lg">Try it</Button>
           </Link>
           <Link href="https://github.com/orgs/OmniB0T/discussions" className="mt-2 pl-3">
