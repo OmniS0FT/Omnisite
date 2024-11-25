@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     description: 'This is a private AI that uses WebGPU to run LLMs natively & privately in your browser, bringing you in-browser AI experience',
     images: ['https://res.cloudinary.com/diekemzs9/image/upload/v1732315249/omni_wb4uz9.png'],
-    url: 'https://starter.rasmic.xyz/'
+    url: 'https://omnibot.com.co/'
   },
   twitter: {
     card: 'summary_large_image',
