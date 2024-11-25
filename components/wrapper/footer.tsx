@@ -80,7 +80,7 @@ export default function Footer() {
                         <div className="mt-8 border-t   pt-8">
                             <ul className="flex flex-wrap gap-4 text-xs">
                                 <li>
-                                    <a href="https://github.com/OmniB0T/.github/blob/main/PRIVACY.md" target="_blank" className="transition hover:opacity-75">Terms & Conditions </a>
+                                    <a href="https://www.freeprivacypolicy.com/live/4b825a24-d686-4251-96f9-d1dc3ef658a1" target="_blank" className="transition hover:opacity-75">Terms & Conditions </a>
                                 </li>
 
                                 <li>

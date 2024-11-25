@@ -45,7 +45,7 @@ export default async function MarketingPage() {
           </Link>
         </div>
         <div className='mb-3 mt-[1.5rem] max-w-[900px] w-full'>
-          <VideoPlayer videoSrc="https://res.cloudinary.com/diekemzs9/video/upload/v1732551180/1_video_-_Made_with_Clipchamp_tchkgc.mp4" />
+          <VideoPlayer videoSrc="https://res.cloudinary.com/diekemzs9/video/upload/v1732564073/1_video_-_Made_with_Clipchamp_1_zh761b.mp4" />
         </div>
         <div className='flex flex-col min-h-screen max-w-[900px] items-center mb-[2rem]'>
           <article className="w-full mx-auto pb-8">

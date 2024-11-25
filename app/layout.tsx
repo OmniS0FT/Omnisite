@@ -8,7 +8,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://starter.rasmic.xyz"),
+  metadataBase: new URL("https://omnibot.com.co/"),
   title: {
     default: 'Omnibot site',
     template: `%s | Omnibot site`

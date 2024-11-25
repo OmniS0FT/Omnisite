@@ -37,7 +37,7 @@ export default async function MarketingPage() {
         Explore Omnibot features built for privacy, efficiency, and powerful AI interaction.
         </p>
 
-        <section className="mb-8 items-center">
+        <section className="mb-10 items-center">
             <ToolTip />
             </section>
       
