@@ -22,7 +22,7 @@ export default function HeroSection() {
                 </Link>
 
                 <Link
-                    href="hhttps://github.com/orgs/OmniB0T/discussions"
+                    href="https://github.com/orgs/OmniB0T/discussions"
                     target='_blank'
                     className="mt-5"
                     aria-label="Join Discord (opens in a new tab)"
