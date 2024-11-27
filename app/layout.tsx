@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     default: 'Omnibot site',
     template: `%s | Omnibot site`
   },
+  icons: {
+    icon: "/favicon.ico",
+  },
   description: 'Bringing you in-browser and offline AI experience',
   openGraph: {
     description: 'This is an AI platform that uses WebGPU to run LLMs offline & privately in your browser, bringing you in-browser AI experience',
