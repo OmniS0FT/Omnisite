@@ -14,6 +14,24 @@ export default function HeroSection() {
             <p className="mx-auto max-w-[700px] text-gray-500 text-center mt-2 dark:text-gray-400">
             This is a private AI that uses WebGPU to run LLMs natively & privately in your browser, bringing you in-browser AI experience.
             </p>
+            
+            <div className='my-6'>
+            <a 
+  href="https://www.producthunt.com/posts/omnibot?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-omnibot" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <img 
+    src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=655045&theme=dark" 
+    alt="Omnibot - Offline, private and localized AI services | Product Hunt" 
+    style={{ width: '230px', height: '50px' }} 
+    width="230" 
+    height="50" 
+  />
+</a>
+            </div>
+          
+
             <div className="flex justify-center items-center gap-3">
                 <Link href="https://www.omnibot.chat/" className="mt-5">
                     <Button className="animate-buttonheartbeat rounded-md bg-green-600 hover:bg-green-500 text-sm font-semibold text-white">
