@@ -15,7 +15,7 @@ export default function HeroSection() {
             This is a private AI that uses WebGPU to run LLMs natively & privately in your browser, bringing you in-browser AI experience.
             </p>
             
-            <div className='my-6'>
+{/*             <div className='my-6'>
             <a 
   href="https://www.producthunt.com/posts/omnibot?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-omnibot" 
   target="_blank" 
@@ -29,7 +29,7 @@ export default function HeroSection() {
     height="50" 
   />
 </a>
-            </div>
+            </div> */}
           
 
             <div className="flex justify-center items-center gap-3">
